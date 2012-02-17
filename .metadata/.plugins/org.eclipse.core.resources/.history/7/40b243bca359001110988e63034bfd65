@@ -1,0 +1,74 @@
+var _ = require('/lib/underscore'),
+	ui = require('/ui/components'),
+	theme = require('/ui/theme');
+
+function TabButton(id, text, icon, selected) {
+	function tabWidth() {
+		return Ti.Platform.displayCaps.platformWidth / 4;
+	}
+	
+	var self = new ui.Component(Ti.UI.createView({
+		width:tabWidth(),
+		opacity:0.8,
+		backgroundColor:(selected) ? '#444444' : '#000000'
+	}));
+	self.id = id;
+	
+	self.add(new ui.ImageView(icon,{
+		top:5,
+		height:30
+	}));
+	
+	self.add(new ui.Label(text,{
+		text:text,
+		color:'#fff',
+		bottom:3,
+		font: {
+			fontSize:10
+		}
+	}));
+	
+	Ti.Gesture.addEventListener('orientationchange', function() {
+		self.viewProxy.width = tabWidth();
+	});
+	
+	self.addEventListener('click', function() {
+		self.set('backgroundColor', '#444444');
+	});
+	
+	return self;
+}
+
+function TabStripView() {
+	var self = new ui.Component(Ti.UI.createView({
+		height:50,
+		layout:'horizontal',
+		backgroundColor:'#121212'
+	}));
+	
+	//create and add tabs
+	_.each([{
+		title:L('updates', 'Stream'),
+		icon:'/images/tabs/chat_white.png',
+		id:'stream'
+	},{
+		title:L('groups', 'Groups'),
+		icon:'/images/tabs/group_white.png',
+		id:'groups'
+	},{
+		title:L('events', 'Events'),
+		icon:'/images/tabs/calendar_white.png',
+		id:'events'
+	},{
+		title:L('leaders', 'Leaders'),
+		icon:'/images/tabs/badge_white.png',
+		id:'leaders'
+	}], function(obj) {
+		var tab = new TabButton(obj.id, obj.title, obj.icon, obj.id === 'stream');
+		self.add(tab);
+	});
+	
+	return self;
+}
+
+module.exports = TabStripView;

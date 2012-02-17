@@ -1,0 +1,3 @@
+module.exports = {
+	appcRed: '#CA120D'
+};

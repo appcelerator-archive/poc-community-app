@@ -1,0 +1,35 @@
+function AppTabGroup() {
+	//load dependencies
+	var _ = require('/lib/underscore'),
+		ui = require('/ui/components'),
+		LogoWindow = require('/ui/LogoWindow'),
+		StreamView = require('/ui/StreamView'),
+		GroupsView = require('/ui/GroupsView'),
+		LeadersView = require('/ui/LeadersView'),
+		EventsView = require('/ui/EventsView');
+	
+	//create base proxy object and component wrapper
+	var self = new ui.TabGroup();
+	
+	var streamWindow = new LogoWindow();
+	
+	self.addTab(Ti.UI.createTab({
+		window:new ui.Window({
+			backgroundImage:'/images/back.png',
+			barColor:'#CA120D',
+			titleImage:'/images/appc_white.png'
+		}),
+		title:'aodjasdasd'
+	}));
+	
+	var streamWindow = 
+	
+	self.addTab(Ti.UI.createTab({
+		window:Ti.UI.createWindow(),
+		title:'ffo'
+	}));
+	
+	return self;
+}
+
+module.exports = AppTabGroup;

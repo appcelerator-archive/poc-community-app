@@ -1,0 +1,15 @@
+function StreamView() {
+	var _ = require('/lib/underscore'),
+		theme = require('/ui/theme'),
+		ui = require('/ui/components');
+	
+	var self = new ui.Component(Ti.UI.createView());
+	
+	self.viewProxy.add(new ui.Label('Stream', {
+		color:'#ffffff'
+	}));
+	
+	return self;
+}
+
+module.exports = StreamView;

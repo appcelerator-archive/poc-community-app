@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.mobileweb.preview.launchConfigurationType">
+<stringAttribute key="ATTR_PROJECT_NAME" value="Titans"/>
+<stringAttribute key="browserExecutable" value="/Applications/Firefox.app"/>
+</launchConfiguration>

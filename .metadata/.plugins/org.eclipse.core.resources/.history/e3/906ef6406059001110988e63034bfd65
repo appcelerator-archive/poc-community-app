@@ -1,0 +1,22 @@
+function AppTabGroup() {
+	//load dependencies
+	var _ = require('/lib/underscore'),
+		ui = require('/ui/components');
+	
+	//create base proxy object and component wrapper
+	var self = new ui.Component(Ti.UI.createTabGroup());
+	
+	self.viewProxy.addTab(Ti.UI.createTab({
+		window:Ti.UI.createWindow(),
+		title:'ffo'
+	}));
+	
+	self.viewProxy.addTab(Ti.UI.createTab({
+		window:Ti.UI.createWindow(),
+		title:'ffo'
+	}));
+	
+	return self;
+}
+
+module.exports = AppTabGroup;

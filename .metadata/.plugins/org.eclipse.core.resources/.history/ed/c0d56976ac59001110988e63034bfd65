@@ -1,0 +1,20 @@
+function LogoWindow() {
+	var theme = require('/ui/theme'),
+		ui = require('/ui/components');
+	
+	var self = new ui.Window({
+		barColor:theme.appcRed,
+		titleImage:'/images/appc_white.png'
+	});
+	
+	var checkinButton = new ui.Button('Check In', {
+		style:Ti.UI.iPhone.SystemButtonStyle.BORDERED
+	});
+	self.rightNavButton = checkinButton;
+	
+	
+	
+	return self;
+}
+
+module.exports = LogoWindow;
