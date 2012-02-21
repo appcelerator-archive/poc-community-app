@@ -44,18 +44,21 @@ function AppTabGroup() {
 	self.addTab(checkinTab);
 	
 	// special image button
-	var checkinButton = new ui.View({
+	var checkinContainer = new ui.View({
 		width:Ti.Platform.displayCaps.platformWidth/5,
 		height:60,
 		bottom:0
 	});
 	
-	checkinButton.add(new ui.ImageView('/images/appc.png', {
+	var checkinButton = new ui.Button({
+		backgroundImage:'/images/appc.png',
 		width:55,
-		height:'auto',
+		height:48 ,
 		top:0
-	}));
-	self.add(checkinButton);
+	});
+	
+	checkinContainer.add(checkinButton);
+	self.add(checkinContainer);
 	
 	//Events tab
 	var eventsWindow = new LogoWindow(),
@@ -83,7 +86,7 @@ function AppTabGroup() {
 	});
 	self.addTab(leadersTab);
 	
-	checkinButton.addEventListener('touchend', function(e) {
+	checkinButton.addEventListener('click', function(e) {
 		var CheckinWindow = require('/ui/CheckinWindow');
 		var w = new CheckinWindow();
 		w.open();

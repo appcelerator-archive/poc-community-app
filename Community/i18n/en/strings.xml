@@ -5,4 +5,7 @@
 	<string name="events">Events</string>
 	<string name="leaders">Leaders</string>
 	<string name="checkin">Check In</string>
+	<string name="settings">Settings</string>
+	<string name="cancel">Cancel</string>
+	<string name="done">Done</string>
 </resources>

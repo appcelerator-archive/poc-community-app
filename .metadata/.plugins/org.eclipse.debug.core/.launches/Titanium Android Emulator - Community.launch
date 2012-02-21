@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="com.appcelerator.titanium.mobile.android.simulator.launchConfigurationType">
-<stringAttribute key="ATTR_PROJECT_NAME" value="Community"/>
-<stringAttribute key="screen_type" value="WVGA854"/>
-<stringAttribute key="sdk_version" value="Real3D Add-On Android 2.2"/>
-</launchConfiguration>

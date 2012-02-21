@@ -1,3 +1,0 @@
-//require and open top level UI component
-var AppTabGroup = require('ui/AppTabGroup');
-new AppTabGroup().open();

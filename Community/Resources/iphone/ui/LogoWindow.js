@@ -14,7 +14,9 @@ function LogoWindow() {
 	self.rightNavButton = configButton;
 	
 	configButton.addEventListener('click', function() {
-		alert('howdy');
+		var SettingsWindow = require('/ui/SettingsWindow');
+		var w = new SettingsWindow();
+		w.open();
 	});
 	
 	return self;

@@ -9,12 +9,13 @@ function AppWindow() {
 		LeadersView = require('/ui/LeadersView'),
 		EventsView = require('/ui/EventsView');
 	
-	//create base proxy object and component wrapper
+	//create base proxy object
 	var self = new ui.Window({
 		navBarHidden:true,
 		exitOnClose:true,
 		backgroundImage:'/images/back.png'
 	});
+	self.orientationModes = [Ti.UI.PORTRAIT];
 	
 	var header = new ui.View({
 		backgroundColor:theme.appcRed,
@@ -76,8 +77,16 @@ function AppWindow() {
 		tabs.selectIndex(e.currentPage);
 	});
 	
+	/*
 	tabs.addEventListener('selected', function(e) {
 		scroller.scrollToView(e.index);
+	});
+	*/
+	
+	checkinLabel.addEventListener('click', function() {
+		var CheckinWindow = require('/ui/CheckinWindow');
+		var w = new CheckinWindow();
+		w.open();
 	});
 	
 	return self;

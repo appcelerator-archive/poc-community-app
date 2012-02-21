@@ -112,10 +112,15 @@ exports.ScrollableView = function(args) {
 };
 
 //create a button with a localized title
-exports.Button = function(title, args) {
-	return Ti.UI.createButton(_.mixin({
-		title:L(title,title)
-	},args||{}));
+exports.Button = function() {
+	if (typeof arguments[0] === 'string') {
+		return Ti.UI.createButton(_.mixin({
+			title:L(arguments[0], arguments[0])
+		},arguments[1]||{}));
+	}
+	else {
+		return Ti.UI.createButton(arguments[0]);
+	}
 };
 
 //create an image with more intelligent defaults

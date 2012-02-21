@@ -5,204 +5,29 @@ Logfile initialized
 [INFO] Titanium SDK version: 1.9.0 (02/10/12 21:16 ddb97bf)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 25 seconds)
-[DEBUG] waited 25.434076 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
-[DEBUG] com.appcelerator.community installed? False
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.056437 seconds on emulator to get ready
+[DEBUG] com.appcelerator.community installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/appicon.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/appicon.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/ui/AppWindow.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/AppWindow.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/ui/bootstrap.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/bootstrap.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/ui/TabStripView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/TabStripView.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/app.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/app.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/appc_white.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/appc_white.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/back.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/back.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/KS_nav_ui.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/KS_nav_views.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/KS_nav_views.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/badge.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/badge.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/badge@2x.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/badge@2x.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/badge_white.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/badge_white.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/calendar.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/calendar.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/calendar@2x.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/calendar@2x.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/calendar_white.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/calendar_white.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/chat.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/chat.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/chat@2x.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/chat@2x.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/chat_white.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/chat_white.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/group.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/group.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/group@2x.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/group@2x.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/tabs/group_white.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/tabs/group_white.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/images/titans256.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/images/titans256.png
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/lib/underscore.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/lib/underscore.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/components.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/components.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/EventsView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/EventsView.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/GroupsView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/GroupsView.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/LeadersView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/LeadersView.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/StreamView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/StreamView.js
-[TRACE] COPYING CREATED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/ui/theme.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/theme.js
-[TRACE] Generating Java Classes
+[TRACE] COPYING MODIFIED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/ui/TabStripView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/TabStripView.js
+[INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/images/back.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-hdpi/images_back_8e7a71396f.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-hdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-ldpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-hdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-ldpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-mdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/images/back.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-mdpi/images_back_8e7a71396f.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-hdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-ldpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-mdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-mdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-hdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-ldpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-mdpi/default.png => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-mdpi/default_d44e27d97b.png
-[DEBUG] app stylesheet => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/ApplicationStylesheet.java
-[DEBUG] copying app icon: /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/appicon.png
-[DEBUG] generating theme.xml
 [DEBUG] found drawable-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-hdpi/background.png
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-hdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-hdpi/background.png
 [DEBUG] found drawable-long-land-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-ldpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-ldpi/background.png
 [DEBUG] found drawable-long-port-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-hdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-hdpi/background.png
 [DEBUG] found drawable-long-port-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-ldpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-ldpi/background.png
 [DEBUG] found drawable-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-mdpi/background.png
 [DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-hdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-hdpi/background.png
 [DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-ldpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-ldpi/background.png
 [DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-mdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-mdpi/background.png
 [DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-hdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-hdpi/background.png
 [DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-ldpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-ldpi/background.png
 [DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-mdpi/default.png
-[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-mdpi/background.png
-[DEBUG] found splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/default.png
-[TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/ApplicationStylesheet.java to javac build list
-[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityActivity.java to javac build list
-[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityAppInfo.java to javac build list
-[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityApplication.java to javac build list
-[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/R.java to javac build list
-[DEBUG] Building Java Sources: "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/ApplicationStylesheet.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityActivity.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityAppInfo.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityApplication.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/R.java"
 [INFO] Waiting for SDCard to become available..
-[INFO] Compiling Android Resources... This could take some time
-[DEBUG] Android classes.dex built
-[DEBUG] creating unsigned apk: /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/app-unsigned.apk
-[DEBUG] from resource zip => assets/Resources/images/tabs/badge.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/badge@2x.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/badge_white.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/calendar.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/calendar@2x.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/calendar_white.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/chat.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/chat@2x.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/chat_white.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/group.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/group@2x.png
-[DEBUG] from resource zip => assets/Resources/images/tabs/group_white.png
-[DEBUG] from resource zip => assets/Resources/images/KS_nav_ui.png
-[DEBUG] from resource zip => assets/Resources/images/KS_nav_views.png
-[DEBUG] from resource zip => assets/Resources/images/appc_white.png
-[DEBUG] from resource zip => assets/Resources/images/back.png
-[DEBUG] from resource zip => assets/Resources/images/titans256.png
-[DEBUG] from resource zip => assets/Resources/lib/underscore.js
-[DEBUG] from resource zip => assets/Resources/ui/AppWindow.js
-[DEBUG] from resource zip => assets/Resources/ui/EventsView.js
-[DEBUG] from resource zip => assets/Resources/ui/GroupsView.js
-[DEBUG] from resource zip => assets/Resources/ui/LeadersView.js
-[DEBUG] from resource zip => assets/Resources/ui/StreamView.js
-[DEBUG] from resource zip => assets/Resources/ui/TabStripView.js
-[DEBUG] from resource zip => assets/Resources/ui/bootstrap.js
-[DEBUG] from resource zip => assets/Resources/ui/components.js
-[DEBUG] from resource zip => assets/Resources/ui/theme.js
-[DEBUG] from resource zip => assets/Resources/app.js
-[DEBUG] from resource zip => assets/Resources/appicon.png
-[DEBUG] from resource zip => assets/Resources/default.png
-[DEBUG] from resource zip => assets/app.json
-[DEBUG] from resource zip => assets/index.json
-[DEBUG] from resource zip => assets/tiapp.xml
-[DEBUG] from resource zip => res/drawable/appicon.png
-[DEBUG] from resource zip => res/drawable/background.png
-[DEBUG] from resource zip => res/drawable/close.png
-[DEBUG] from resource zip => res/drawable/facebook_login.png
-[DEBUG] from resource zip => res/drawable/facebook_login_down.png
-[DEBUG] from resource zip => res/drawable/facebook_login_wide.png
-[DEBUG] from resource zip => res/drawable/facebook_login_wide_down.png
-[DEBUG] from resource zip => res/drawable/facebook_logout.png
-[DEBUG] from resource zip => res/drawable/facebook_logout_down.png
-[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
-[DEBUG] from resource zip => AndroidManifest.xml
-[DEBUG] from resource zip => resources.arsc
-[DEBUG] from resource zip => res/drawable-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-hdpi/close.png
-[DEBUG] from resource zip => res/drawable-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-hdpi/images_back_8e7a71396f.png
-[DEBUG] from resource zip => res/drawable-ldpi/close.png
-[DEBUG] from resource zip => res/drawable-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-mdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-mdpi/images_back_8e7a71396f.png
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/default_d44e27d97b.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/modules/titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] installing native SDK libs
-[DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.062944 seconds on emulator to get ready
-[INFO] Installing application on emulator
+[INFO] Re-launching application ... Community
 [INFO] Launching application ... Community
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appcelerator.community/.CommunityActivity }
+Warning: Activity not started, its current task has been brought to the front
 
-[INFO] Deployed Community ... Application should be running.
-[INFO] Android Emulator has exited

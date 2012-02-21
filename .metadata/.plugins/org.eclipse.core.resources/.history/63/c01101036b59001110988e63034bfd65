@@ -1,6 +1,0 @@
-exports.launch = function() {
-	var app = Ti.UI.createWindow({
-		backgroundImage:'/images/back.png'
-	});
-	app.open();
-};

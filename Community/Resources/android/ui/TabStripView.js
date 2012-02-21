@@ -6,13 +6,14 @@ function tabWidth() {
 	return Ti.Platform.displayCaps.platformWidth / 4;
 }
 
-function TabButton(id, text, icon, selected) {	
+function TabButton(id, text, icon, index, selected) {	
 	var self = new ui.Component(Ti.UI.createView({
 		width:tabWidth(),
 		opacity:0.8,
-		backgroundColor:(isSelected) ? '#444444' : 'transparent'
+		backgroundColor:(selected) ? '#444444' : 'transparent'
 	}));
 	self.id = id;
+	self.index = index;
 	self.selected = selected;
 	
 	self.add(new ui.ImageView(icon,{
@@ -29,20 +30,6 @@ function TabButton(id, text, icon, selected) {
 		}
 	}));
 	
-	Ti.Gesture.addEventListener('orientationchange', function() {
-		self.viewProxy.width = tabWidth();
-	});
-	
-	self.toggle = function(b) {
-		self.selected = b;
-		self.set('backgroundColor', (self.selected) ? '#444444' : 'transparent');
-		self.fireEvent('statusChange', {selected:self.selected});
-	};
-	
-	self.addEventListener('click', function() {
-		self.toggle(true);
-	});
-	
 	return self;
 }
 
@@ -51,60 +38,21 @@ function TabStripView(args) {
 		height:50,
 		layout:'horizontal',
 		backgroundColor:'#121212'
-	}, args.viewArgs||{}))); 
+	}, args.viewArgs||{})));
 	
-	//create and add tabs
-	var tabObjects = [],
-		tabInfo = [{
-		title:L('updates', 'Stream'),
-		icon:'/images/tabs/chat_white.png',
-		id:'stream'
-	},{
-		title:L('groups', 'Groups'),
-		icon:'/images/tabs/group_white.png',
-		id:'groups'
-	},{
-		title:L('events', 'Events'),
-		icon:'/images/tabs/calendar_white.png',
-		id:'events'
-	},{
-		title:L('leaders', 'Leaders'),
-		icon:'/images/tabs/badge_white.png',
-		id:'leaders'
-	}];
+	var tabs = [],
+		first = true,
+		index = 0,
+		selectedIndex = 0;
 	
-	_.each(tabInfo, function(obj) {
-		var tab = new TabButton(obj.id, obj.title, obj.icon, obj.id === 'stream');
+	for (var key in args.tabs) {
+		var data = args.tabs[key];
+		var tab = new TabButton(key, data.title, data.icon, index, first);		
 		self.add(tab);
-		tabObjects.push(tab);
-		
-		tab.addEventListener('statusChange', function(e) {
-			var selectedIndex;
-			for (var i = 0, l = tabObjects.length; i<l; i++) {
-				tabObjects[i].toggle();
-				if (tabObjects[i].selected) {
-					selectedIndex = i;
-				}
-			}
-			
-			//bubble up selected index
-			self.fireEvent('selected', {index:selectedIndex});
-		});
-	});
-	
-	//this sucks, need to do this more intelligently
-	self.selectIndex = function(index, bubble) {
-		for (var i = 0, l = tabObjects.length; i<l; i++) {
-			tabObjects[i].toggle();
-			if (tabObjects[i].selected) {
-				selectedIndex = i;
-			}
-		}
-		//bubble up selected index
-		if (bubble) {
-			self.fireEvent('selected', {index:index});
-		}
-	};
+		tabs.push(tab);
+		first = false;
+		index++;
+	}
 	
 	return self;
 }
