@@ -1,0 +1,14 @@
+exports.launch = function() {
+	var ui = require('/ui/components'),
+		AppTabGroup = require('/ui/AppTabGroup');
+	
+	var tabs = new AppTabGroup();
+	
+	tabs.add(Ti.UI.createView({
+		backgroundColor:'red',
+		height:100,
+		width:100
+	}));
+	
+	tabs.open();
+};

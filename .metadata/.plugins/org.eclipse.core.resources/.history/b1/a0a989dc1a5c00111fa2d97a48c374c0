@@ -1,0 +1,18 @@
+function CheckinWindow() {
+	var _ = require('/lib/underscore'),
+	theme = require('/ui/theme'),
+	ui = require('/ui/components');
+
+	var self = new ui.Window({
+		modal:true,
+		title:'Check In',
+		backgroundImage:'/images/back.png'
+	});
+	
+	self.add(new ui.Label('Check In', {
+		color:'#ffffff'
+	}));
+	
+	return self;
+}
+module.exports = CheckinWindow;

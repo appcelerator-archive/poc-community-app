@@ -1,0 +1,94 @@
+function AppTabGroup() {
+	//load dependencies
+	var _ = require('/lib/underscore'),
+		ui = require('/ui/components'),
+		LogoWindow = require('/ui/LogoWindow'),
+		StreamView = require('/ui/StreamView'),
+		GroupsView = require('/ui/GroupsView'),
+		LeadersView = require('/ui/LeadersView'),
+		EventsView = require('/ui/EventsView');
+	
+	//create base proxy object and component wrapper
+	var self = new ui.TabGroup();
+	
+	//Stream tab
+	var streamWindow = new LogoWindow(),
+		streamView = new StreamView();
+	
+	streamWindow.add(streamView);
+	
+	var streamTab = Ti.UI.createTab({
+		title:'Stream',
+		icon:'/images/tabs/chat.png',
+		window:streamWindow
+	});
+	self.addTab(streamTab);
+	
+	//Groups tab
+	var groupsWindow = new LogoWindow(),
+		groupsView = new GroupsView();
+	
+	groupsWindow.add(groupsView);
+	
+	var groupsTab = Ti.UI.createTab({
+		title:'Groups',
+		icon:'/images/tabs/group.png',
+		window:groupsWindow
+	});
+	self.addTab(groupsTab);
+	
+	//dummy check-in tab
+	var checkinTab = Ti.UI.createTab({
+		title:'Check In'
+	});
+	self.addTab(checkinTab);
+	
+	// special image button
+	var checkinButton = new ui.View({
+		width:Ti.Platform.displayCaps.platformWidth/5,
+		height:60,
+		bottom:0
+	});
+	
+	checkinButton.add(new ui.ImageView('/images/appc.png', {
+		width:55,
+		height:'auto',
+		top:0
+	}));
+	
+	self.add(checkinButton);
+	
+	//Events tab
+	var eventsWindow = new LogoWindow(),
+		eventsView = new EventsView();
+	
+	eventsWindow.add(eventsView);
+	
+	var eventsTab = Ti.UI.createTab({
+		title:'Events',
+		icon:'/images/tabs/calendar.png',
+		window:eventsWindow
+	});
+	self.addTab(eventsTab);	
+	
+	//Leaders tab
+	var leadersWindow = new LogoWindow(),
+		leadersView = new LeadersView();
+	
+	leadersWindow.add(leadersView);
+	
+	var leadersTab = Ti.UI.createTab({
+		title:'Leaders',
+		icon:'/images/tabs/badge.png',
+		window:leadersWindow
+	});
+	self.addTab(leadersTab);
+	
+	checkinButton.addEventListener('click', function(e) {
+		alert('hey');
+	});
+	
+	return self;
+}
+
+module.exports = AppTabGroup;
