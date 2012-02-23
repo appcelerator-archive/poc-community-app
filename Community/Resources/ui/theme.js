@@ -7,11 +7,6 @@ module.exports = {
 	windowBackground: '/images/back.png',
 	
 	//style objects
-	actionBar: {
-		height:44,
-		top:0,
-		backgroundColor:appcRed
-	},
 	headerText: {
 		left:5,
 		color:'#ffffff',

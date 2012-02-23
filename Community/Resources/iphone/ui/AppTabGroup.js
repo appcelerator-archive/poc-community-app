@@ -10,6 +10,8 @@ function AppTabGroup() {
 	
 	//create base proxy object and component wrapper
 	var self = new ui.TabGroup();
+
+	Ti.API.info('adding tabs....');
 	
 	//Stream tab
 	var streamWindow = new LogoWindow(),
@@ -23,6 +25,7 @@ function AppTabGroup() {
 		window:streamWindow
 	});
 	self.addTab(streamTab);
+	Ti.API.info('stream');
 	
 	//Groups tab
 	var groupsWindow = new LogoWindow(),
@@ -36,29 +39,14 @@ function AppTabGroup() {
 		window:groupsWindow
 	});
 	self.addTab(groupsTab);
+	Ti.API.info('groups');
 	
 	//dummy check-in tab
 	var checkinTab = Ti.UI.createTab({
 		title:L('checkin')
 	});
 	self.addTab(checkinTab);
-	
-	// special image button
-	var checkinContainer = new ui.View({
-		width:Ti.Platform.displayCaps.platformWidth/5,
-		height:60,
-		bottom:0
-	});
-	
-	var checkinButton = new ui.Button({
-		backgroundImage:'/images/appc.png',
-		width:55,
-		height:48 ,
-		top:0
-	});
-	
-	checkinContainer.add(checkinButton);
-	self.add(checkinContainer);
+	Ti.API.info('checkin');
 	
 	//Events tab
 	var eventsWindow = new LogoWindow(),
@@ -72,6 +60,7 @@ function AppTabGroup() {
 		window:eventsWindow
 	});
 	self.addTab(eventsTab);	
+	Ti.API.info('events');
 	
 	//Leaders tab
 	var leadersWindow = new LogoWindow(),
@@ -85,8 +74,23 @@ function AppTabGroup() {
 		window:leadersWindow
 	});
 	self.addTab(leadersTab);
+	Ti.API.info('leaders');
 	
-	checkinButton.addEventListener('click', function(e) {
+	var wrapper = new ui.View({
+		height:60,
+		width:60,
+		bottom:0
+	});
+	var checkinButton = new ui.Button({
+		backgroundImage:'/images/tabs/checkin_button.png',
+		width:57,
+		height:49,
+		top:0
+	});
+	wrapper.add(checkinButton);
+	self.add(wrapper);
+	
+	checkinButton.addEventListener('click', function() {
 		var CheckinWindow = require('/ui/CheckinWindow');
 		var w = new CheckinWindow();
 		w.open();

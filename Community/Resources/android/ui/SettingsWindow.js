@@ -1,4 +1,4 @@
-function CheckinWindow() {
+function SettingsWindow() {
 	var _ = require('/lib/underscore'),
 		theme = require('/ui/theme'),
 		ui = require('/ui/components'),
@@ -10,7 +10,7 @@ function CheckinWindow() {
 	});
 	
 	var actionBar = new ActionBarView({
-		title:'checkin',
+		title:'settings',
 		buttons: {
 			cancel: {
 				title:'cancel',
@@ -26,4 +26,4 @@ function CheckinWindow() {
 	
 	return self;
 }
-module.exports = CheckinWindow;
+module.exports = SettingsWindow;

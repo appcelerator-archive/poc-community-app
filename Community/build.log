@@ -1,34 +1,143 @@
 Logfile initialized
 [INFO] logfile = /Users/kwhinnery/dev/appc/Titans/App/Community/build.log
-[DEBUG] /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.9.0.v20120210211634/android/builder.py simulator Community /Users/kwhinnery/dev/android/sdk /Users/kwhinnery/dev/appc/Titans/App/Community com.appcelerator.community 9 WVGA854 
-[INFO] Building Community for Android ... one moment
-[INFO] Titanium SDK version: 1.9.0 (02/10/12 21:16 ddb97bf)
+[DEBUG] /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/builder.py install Community /Users/kwhinnery/dev/android/sdk /Users/kwhinnery/dev/appc/Titans/App/Community com.appcelerator.community 23
+[INFO] Titanium SDK version: 1.8.1 (01/27/12 17:31 a24502a)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.056437 seconds on emulator to get ready
-[DEBUG] com.appcelerator.community installed? True
-[INFO] Fastdev server running, deploying in Fastdev mode
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 25 seconds)
+[DEBUG] waited 25.341282 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
+[DEBUG] com.appcelerator.community installed? False
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/ui/TabStripView.js => /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/ui/TabStripView.js
-[INFO] Tiapp.xml unchanged, skipping class generation
+[TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
+[DEBUG] copying app icon: /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
 [DEBUG] found drawable-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-hdpi/background.png
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-hdpi/background.png
 [DEBUG] found drawable-long-land-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-land-ldpi/background.png
 [DEBUG] found drawable-long-port-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-hdpi/background.png
 [DEBUG] found drawable-long-port-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-long-port-ldpi/background.png
 [DEBUG] found drawable-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-mdpi/background.png
 [DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-hdpi/background.png
 [DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-ldpi/background.png
 [DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-land-mdpi/background.png
 [DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-hdpi/background.png
 [DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-ldpi/background.png
 [DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-mdpi/default.png
-[INFO] Waiting for SDCard to become available..
-[INFO] Re-launching application ... Community
-[INFO] Launching application ... Community
-[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appcelerator.community/.CommunityActivity }
-Warning: Activity not started, its current task has been brought to the front
-
-[INFO] Android Emulator has exited
+[DEBUG] copying /Users/kwhinnery/dev/appc/Titans/App/Community/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found splash screen at /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityActivity.java to javac build list
+[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityAppInfo.java to javac build list
+[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityApplication.java to javac build list
+[DEBUG] adding /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/R.java to javac build list
+[DEBUG] Building Java Sources: "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityActivity.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityAppInfo.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/CommunityApplication.java" "/Users/kwhinnery/dev/appc/Titans/App/Community/build/android/gen/com/appcelerator/community/R.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/kwhinnery/dev/appc/Titans/App/Community/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/images/tabs/badge.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/badge@2x.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/badge_white.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/calendar.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/calendar@2x.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/calendar_white.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/chat.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/chat@2x.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/chat_white.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/checkin_button.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/checkin_button@2x.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/group.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/group@2x.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/group_white.png
+[DEBUG] from resource zip => assets/Resources/images/14-gear.png
+[DEBUG] from resource zip => assets/Resources/images/14-gear@2x.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/images/appc.png
+[DEBUG] from resource zip => assets/Resources/images/appc@2x.png
+[DEBUG] from resource zip => assets/Resources/images/appc_white.png
+[DEBUG] from resource zip => assets/Resources/images/back.png
+[DEBUG] from resource zip => assets/Resources/images/sliver.png
+[DEBUG] from resource zip => assets/Resources/images/titans.png
+[DEBUG] from resource zip => assets/Resources/lib/underscore.js
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default-Landscape.jpg
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default-Landscape.png
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default-Portrait.jpg
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default-Portrait.png
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default.jpg
+[DEBUG] from resource zip => assets/Resources/mobileweb/Default.png
+[DEBUG] from resource zip => assets/Resources/mobileweb/appicon.png
+[DEBUG] from resource zip => assets/Resources/ui/ActionBarView.js
+[DEBUG] from resource zip => assets/Resources/ui/AppWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/CheckinWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/EventsView.js
+[DEBUG] from resource zip => assets/Resources/ui/GroupsView.js
+[DEBUG] from resource zip => assets/Resources/ui/LeadersView.js
+[DEBUG] from resource zip => assets/Resources/ui/SettingsWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/StreamView.js
+[DEBUG] from resource zip => assets/Resources/ui/TabStripView.js
+[DEBUG] from resource zip => assets/Resources/ui/bootstrap.js
+[DEBUG] from resource zip => assets/Resources/ui/components.js
+[DEBUG] from resource zip => assets/Resources/ui/theme.js
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/kwhinnery/Library/Application Support/Titanium/mobilesdk/osx/1.8.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.059380 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen

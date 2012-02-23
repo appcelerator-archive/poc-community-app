@@ -30,6 +30,10 @@ function TabButton(id, text, icon, index, selected) {
 		}
 	}));
 	
+	self.toggle = function(on) {
+		(on) ? self.set('backgroundColor', '#444444') : self.set('backgroundColor', 'transparent');
+	};
+	
 	return self;
 }
 
@@ -51,8 +55,29 @@ function TabStripView(args) {
 		self.add(tab);
 		tabs.push(tab);
 		first = false;
+		
+		(function(i,t) {
+			t.addEventListener('click', function() {
+				self.selectIndex(i);
+				self.fireEvent('selected', {
+					index:i
+				});
+			});
+		})(index, tab);
+		
 		index++;
 	}
+	
+	self.selectIndex = function(idx) {
+		_.each(tabs, function(currentTab) {
+			if (currentTab.index === idx) {
+				currentTab.toggle(true);
+			}
+			else {
+				currentTab.toggle(false);
+			}
+		});
+	};
 	
 	return self;
 }
