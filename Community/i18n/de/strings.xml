@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="stream">Stream</string>
+	<string name="groups">Gruppen</string>
+	<string name="events">Veranstaltungen</string>
+	<string name="leaders">Spitzenreiter</string>
+	<string name="checkin">Einchecken</string>
+	<string name="settings">Einstellungen</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="done">Fertig</string>
+</resources>
