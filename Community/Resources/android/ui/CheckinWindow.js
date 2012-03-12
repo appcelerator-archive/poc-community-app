@@ -10,7 +10,7 @@ function CheckinWindow() {
 	});
 	
 	var actionBar = new ActionBarView({
-		title:'checkin',
+		title:L('checkin'),
 		buttons: {
 			cancel: {
 				title:'cancel',
