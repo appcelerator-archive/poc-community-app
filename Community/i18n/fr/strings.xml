@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="stream">Flux</string>
+	<string name="groups">Groupes</string>
+	<string name="events">Evénements</string>
+	<string name="leaders">Leaders</string>
+	<string name="checkin">S'identifier</string>
+	<string name="settings">Préférences</string>
+	<string name="cancel">Annuler</string>
+	<string name="done">OK</string>
+</resources>

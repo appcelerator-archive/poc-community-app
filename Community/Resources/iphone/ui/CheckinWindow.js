@@ -5,7 +5,7 @@ function CheckinWindow() {
 
 	var self = new ui.Window({
 		modal:true,
-		title:'Check In',
+		title:L('checkin'),
 		barColor:theme.appcRed,
 		backgroundImage:theme.windowBackground
 	});
