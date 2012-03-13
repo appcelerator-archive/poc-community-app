@@ -40,7 +40,7 @@ function AppWindow() {
 		},
 		tabs: {
 			stream: {
-				title:L('updates', 'Stream'),
+				title:L('stream', 'Stream'),
 				icon:'/images/tabs/chat_white.png'
 			},
 			groups: {
