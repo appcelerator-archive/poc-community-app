@@ -1,9 +1,14 @@
-var appcRed = '#CA120D';
+var _ = require('/lib/underscore');
 
-module.exports = {
-	appcRed: appcRed,
+
+var palette = { 
+	appcRed: '#CA120D',
 	appcDarkGray: '#787878',
 	appcLightGray: '#343434',
+};
+
+
+var components = {
 	windowBackground: '/images/back.png',
 	
 	//style objects
@@ -16,3 +21,7 @@ module.exports = {
 		}
 	}
 };
+
+//Using extend so that ui component defs can refer to the common palette etc
+var theme = _.extend(palette, components);
+module.exports = theme;
